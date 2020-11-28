@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS BTS4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Fe56Javascript</title>
+</head>
+
+<body>
+    <input id="txtInput" type="text" value="cybersoft">
+    <!-- <button onclick="eventClick()">Click</button> -->
+    <button id="btnClick">Click</button>
+    <p id="pText">Nguyen Brandon Tuan</p>
+    <div id="divContent">Nội dung trước khi thay đổi</div>
+    <button id="btnNhanEmDi">Nhấn em đi!</button>
+    <button id="hide">ẨN</button>
+    <button id="show">Hiện</button>
+    <button id="btnDis">Display button Nhan Em di</button>
+    <button id="btnOpen">Unlock button Nhan Em di</button>
+    <br>
+    <img id="imgBulb" src="./imgs/pic_bulboff.gif" alt="">
+    <button id="btnOff" class="btn btn-danger">OFF</button>
+    <button id="btnOn" class="btn btn-success">ON</button>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="">User Name</label>
+                    <input type="text" class="form-control" name="" id="user">
+                </div>
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="text" class="form-control" name="" id="pass">
+                </div>
+                <button id="log" class="btn btn-success">Login</button>
+            </div>
+
+
+        </div>
+        <div style="display: none;" id="succes" class=" alert alert-success  " role="alert">
+            Login succes
+        </div>
+        <div id="fail" style="display: none;" class=" alert alert-danger " role="alert">
+            Login fail
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Tính tiền típ</h3>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="">Tổng tiền thanh toán</label>
+                    <input id="txtTongTien" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <div class="form-group">
+                        <label for="">Bạn muốn típ bao nhiêu</label>
+                        <select class="form-control" id="slPhanTramTip">
+                  <option value="0">Chọn để tiếp</option>
+                  <option value="30">30%</option>
+                  <option value="20">20%</option>
+                  <option value="15">15%</option>
+                  <option value="10">10%</option>
+                  <option value="5">5%</option>
+                </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Muốn share bao nhiêu người</label>
+                    <input id="txtSoNguoi" type="text" class="form-control" />
+                </div>
+                <button id="btnTinhTienTip" class="btn btn-danger">Tính tiền</button>
+            </div>
+            <div id="txtThongBaoTienTip" style="display: none">Thông báo tiền típ</div>
+        </div>
+    </div>
+
+    <!-- BTS4 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- JS  -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
