@@ -253,3 +253,7 @@ document.getElementById("btn_TinhTien").addEventListener("click", function() {
     document.getElementById("txtThongBaoTienTip").innerHTML = "Số tiền tip mỗi người là: " + kq;
     document.getElementById("txtThongBaoTienTip").className = "alert alert-success d-block";
 })
+
+function themNguoiDung() {
+    console.log("Tuan Nguyen");
+}
